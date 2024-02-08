@@ -128,7 +128,7 @@ body{
 .analytics .data{
     display: flex;
     align-items: center;
-    color: #333;
+    color: #000000;
     padding: 0 20px;
     border-right: 2px solid #e7e7e7;
 }
