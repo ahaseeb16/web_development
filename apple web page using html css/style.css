@@ -164,3 +164,929 @@ header {
     background: url("4.png") center no-repeat;
 }
 
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-top: 0.6rem solid #ffffff;
+    border-bottom: 0.6rem solid #ffffff; */
+}
+
+
+footer {
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
+
+footer *,
+footer *:before,
+footer *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit
+}
+
+footer {
+    display: block
+}
+
+footer img {
+    border: 0;
+    vertical-align: middle
+}
+
+footer ul {
+    list-style: none
+}
+
+footer,
+footer input,
+footer textarea,
+footer select,
+footer button {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left
+}
+
+
+h1 footer sup,
+h2 footer sup,
+h3 footer sup {
+    font-size: 0.4em
+}
+
+footer sup a {
+    vertical-align: inherit;
+    color: inherit
+}
+
+footer sup a:hover {
+    color: #06c;
+    text-decoration: none
+}
+
+footer sub {
+    font-size: smaller;
+    vertical-align: sub;
+    line-height: 1
+}
+
+footer .ac-gf-icon::before,
+footer .ac-gf-icon::after,
+footer .ac-gf-more::before,
+footer .ac-gf-more::after {
+    font-family: "SF Pro Icons", "Apple Legacy Chevron";
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+    alt: ''
+}
+
+footer .ac-gf-icon::before,
+footer .ac-gf-icon::after,
+footer .ac-gf-more::before,
+footer .ac-gf-more::after {
+    text-decoration: none
+}
+
+footer .ac-gf-icon::before,
+footer .ac-gf-more::before {
+    display: none
+}
+
+footer .ac-gf-icon-after::after,
+footer .ac-gf-more::after {
+    padding-left: .3em;
+    top: 0
+}
+
+footer .ac-gf-icon-before::before {
+    padding-right: .3em;
+    display: inline-block;
+    top: 0
+}
+
+footer .ac-gf-icon-before::after {
+    display: none
+}
+
+footer .ac-gf-icon-before.ac-gf-icon-apple::before {
+    padding-right: 0;
+    display: inline-block;
+    top: 0
+}
+
+footer .ac-gf-icon-before.ac-gf-icon-apple::after {
+    display: none
+}
+
+
+footer .ac-gf-more-block {
+    margin-top: .5em
+}
+
+footer .ac-gf-icon-wrapper .ac-gf-icon,
+footer .ac-gf-icon-wrapper .ac-gf-more::after,
+footer .ac-gf-icon-wrapper .ac-gf-icon-before::before,
+footer .ac-gf-icon-wrapper .ac-gf-icon-after::after {
+    display: inline;
+    position: static
+}
+
+footer a.ac-gf-icon-wrapper {
+    text-decoration: none
+}
+
+footer a.ac-gf-icon-wrapper:hover .ac-gf-icon-copy {
+    text-decoration: underline
+}
+
+footer a.ac-gf-block {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit
+}
+
+footer a.ac-gf-block::before,
+footer a.ac-gf-block::after {
+    content: ' ';
+    display: table
+}
+
+footer a.ac-gf-block::after {
+    clear: both
+}
+
+footer a.ac-gf-block:hover {
+    text-decoration: none
+}
+
+footer a.ac-gf-block:hover .ac-gf-block-link {
+    text-decoration: underline
+}
+
+footer a.ac-gf-block .ac-gf-block-link {
+    color: #06c
+}
+
+footer .ac-gf-block-link {
+    cursor: pointer
+}
+
+footer a.ac-gf-block-inline {
+    display: inline-block
+}
+
+footer .ac-gf-buystrip {
+    --buystrip-background: #f5f5f7;
+    --buystrip-border-color: #d2d2d7;
+    --buystrip-text-color: #1d1d1f;
+    --buystrip-link-color: #06c;
+    color: var(--buystrip-text-color)
+}
+
+footer .ac-gf-buystrip-background {
+    background: var(--buystrip-background)
+}
+
+.ac-theme-dark footer.ac-gf-buystrip-background,
+footer.ac-globalfooter-dark.ac-gf-buystrip-background {
+    background: var(--buystrip-background)
+}
+
+footer .ac-gf-buystrip-info {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 56px;
+    text-align: center
+}
+
+footer .ac-gf-buystrip-info-keyline,
+footer .ac-gf-buystrip-info {
+    border-bottom: 1px solid var(--buystrip-border-color)
+}
+
+
+
+footer .ac-gf-buystrip-info-column {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 25%;
+    flex: 1 25%;
+    max-width: 410px
+}
+
+
+
+footer .ac-gf-buystrip-info-column:first-child:nth-last-child(2),
+footer .ac-gf-buystrip-info-column:last-child:nth-child(2) {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+footer .ac-gf-buystrip-info-content {
+    margin: 0 auto;
+    padding-top: 56px;
+    position: relative;
+    text-align: center;
+    width: 216px;
+    z-index: 1
+}
+
+
+footer .ac-gf-buystrip-info-icon {
+    margin: 0 auto
+}
+
+footer .ac-gf-buystrip-info-title,
+footer .ac-gf-buystrip-info-copy,
+footer .ac-gf-buystrip-info-caption,
+footer .ac-gf-buystrip-info-cta {
+    margin: 0
+}
+
+footer .ac-gf-buystrip-info-title {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: .525em
+}
+
+footer .ac-gf-buystrip-info-copy {
+    display: block;
+    margin-top: 0.4em
+}
+
+footer .ac-gf-buystrip-info-copy+.ac-gf-buystrip-info-column-copy {
+    margin-top: 0.8em
+}
+
+footer .ac-gf-buystrip-info-caption {
+    display: block
+}
+
+footer .ac-gf-buystrip-info-cta {
+    color: var(--buystrip-link-color);
+    margin-top: 0.8em;
+    display: block
+}
+
+footer.no-js .ac-gf-buystrip-info-cta-chat {
+    display: none
+}
+
+footer .ac-gf-buystrip-elevated .ac-gf-buystrip-info {
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+footer .ac-gf-buystrip-elevated .ac-gf-buystrip-info-column:first-child:nth-last-child(4),
+footer .ac-gf-buystrip-elevated .ac-gf-buystrip-info-column:first-child:nth-last-child(4)~.ac-gf-buystrip-info-column {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+footer .ac-gf-buystrip-elevated .ac-gf-buystrip-info-content {
+    width: 294px;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+
+footer .ac-gf-buystrip-elevated .ac-gf-buystrip-info-title {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: .53em
+}
+
+footer .ac-gf-buystrip-hero {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    direction: rtl;
+    padding-top: 58px;
+    text-align: center;
+    padding-bottom: 4px
+}
+
+footer .ac-gf-buystrip-hero::before,
+footer .ac-gf-buystrip-hero::after {
+    content: ' ';
+    display: table
+}
+
+footer .ac-gf-buystrip-hero::after {
+    clear: both
+}
+
+
+footer .ac-gf-buystrip-hero-product {
+    margin-right: 34px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+footer .ac-gf-buystrip-hero-block {
+    direction: ltr;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle
+}
+
+
+footer .ac-gf-buystrip-hero-title,
+footer .ac-gf-buystrip-hero-copy,
+footer .ac-gf-buystrip-hero-cta {
+    margin: 0
+}
+
+footer .ac-gf-buystrip-hero-title {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 3px
+}
+
+footer .ac-gf-buystrip-hero-copy {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+footer .ac-gf-buystrip-hero-cta {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 0.8em
+}
+
+footer {
+    --footer-background: #f5f5f7;
+    --footer-border-color: #d2d2d7;
+    --footer-text-color: #6e6e73;
+    --footer-link-color: #424245;
+    --footer-directory-title-color: #1d1d1f;
+    --footer-directory-title-color-hover: #000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+    color: var(--footer-directory-title-color)
+}
+
+footer a {
+    color: var(--footer-link-color);
+    text-decoration: none
+}
+
+footer a:hover {
+    text-decoration: underline
+}
+
+footer a.ac-gf-block {
+    color: inherit;
+    text-decoration: none
+}
+
+footer a.ac-gf-block:hover {
+    color: inherit
+}
+
+.ac-theme-dark footer a.ac-gf-block,
+footer.ac-globalfooter-dark a.ac-gf-block {
+    color: inherit
+}
+
+.ac-theme-dark footer a.ac-gf-block .ac-gf-block-link,
+footer.ac-globalfooter-dark a.ac-gf-block .ac-gf-block-link {
+    color: #2997ff
+}
+
+footer .content {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    padding-left: max(22px, env(safe-area-inset-left));
+    padding-right: max(22px, env(safe-area-inset-right))
+}
+
+
+footer .label {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0
+}
+
+footer .ac-gf-sosumi {
+    border-bottom: 1px solid var(--footer-border-color);
+    padding: 17px 0 11px
+}
+
+footer .ac-gf-sosumi ol {
+    list-style-position: outside;
+    margin: 0;
+    padding: 0 17px
+}
+
+footer .ac-gf-sosumi ol li {
+    list-style-type: decimal
+}
+
+footer .ac-gf-sosumi ul {
+    list-style: none;
+    margin: 0
+}
+
+footer .ac-gf-sosumi li {
+    padding-bottom: 0.8em
+}
+
+footer .ac-gf-sosumi p,
+footer .ac-gf-sosumi li {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+footer .ac-gf-sosumi small {
+    font-size: 1em
+}
+
+footer .ac-gf-breadcrumbs {
+    padding: 17px 0;
+    position: relative;
+    z-index: 1;
+    color: var(--footer-link-color)
+}
+
+footer .ac-gf-breadcrumbs::before,
+footer .ac-gf-breadcrumbs::after {
+    content: ' ';
+    display: table
+}
+
+footer .ac-gf-breadcrumbs::after {
+    clear: both
+}
+
+footer .ac-gf-breadcrumbs-home {
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    top: 17px
+}
+
+footer .ac-gf-breadcrumbs-home:hover {
+    text-decoration: none
+}
+
+footer .ac-gf-breadcrumbs-home:hover .ac-gf-breadcrumbs-home-icon {
+    background-position-y: 100%
+}
+
+footer .ac-gf-breadcrumbs-home-label {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0
+}
+
+footer .ac-gf-breadcrumbs-path {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    position: relative;
+    z-index: 1
+}
+
+footer .ac-gf-breadcrumbs-path::before,
+footer .ac-gf-breadcrumbs-path::after {
+    content: ' ';
+    display: table
+}
+
+footer .ac-gf-breadcrumbs-path::after {
+    clear: both
+}
+
+footer .ac-gf-breadcrumbs-list {
+    max-height: 9999px;
+    padding-left: 25px;
+    direction: ltr;
+    list-style: none
+}
+
+footer .ac-gf-breadcrumbs-item {
+    margin-right: 7px;
+    float: left;
+    padding: 3px 4px 3px 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+footer .directory {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-top: 20px
+}
+
+footer .directory:last-child {
+    padding-bottom: 28px
+}
+
+footer .directory-column {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%
+}
+
+footer .directory-column-section {
+    pointer-events: none
+}
+
+footer .directory-column-section~.directory-column-section {
+    padding-top: 24px
+}
+
+
+footer .Title {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: .8em
+}
+
+
+footer .SectionList {
+    margin-right: 20px;
+    list-style: none;
+    padding: 0
+}
+
+
+footer li {
+    display: block;
+    pointer-events: auto;
+    margin-bottom: .8em
+}
+
+footer .SectionAnchor {
+    right: 0;
+    cursor: default;
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    z-index: 10
+}
+
+footer .SectionAnchor:focus {
+    outline-offset: -6px;
+    width: 25px;
+    height: 38px
+}
+
+footer .SectionAnchor-close {
+    display: none
+}
+
+footer .SectionAnchor-label {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0
+}
+
+footer .SectionState {
+    display: none
+}
+
+
+footer .ac-gf-breadcrumbs+.directory {
+    padding-top: 0
+}
+
+
+
+footer .ac-gf-footer {
+    border-top: 1px solid var(--footer-border-color);
+    padding: 17px 0 21px;
+    padding-bottom: calc(21px + constant(safe-area-inset-bottom))
+}
+
+
+footer .ac-gf-footer:nth-child(2) {
+    border-top: none
+}
+
+
+footer .ac-gf-footer-shop {
+    --footer-mini-shop-link-color: #06c;
+    max-height: 9999px;
+    padding-bottom: 3px
+}
+
+.ac-theme-dark footer .ac-gf-footer-shop,
+footer.ac-globalfooter-dark .ac-gf-footer-shop {
+    --footer-mini-shop-link-color: #2997ff
+}
+
+footer .ac-gf-footer-shop a,
+footer .ac-gf-footer-shop a:hover {
+    color: var(--footer-mini-shop-link-color)
+}
+
+footer .ac-gf-footer-locale {
+    float: right;
+    margin-top: 5px;
+    position: relative;
+    top: -3px;
+    z-index: 2;
+    white-space: nowrap
+}
+
+footer .ac-gf-footer-locale-link {
+    border-left: 1px solid var(--footer-border-color);
+    margin-left: 7px;
+    padding-left: 11px;
+    display: inline
+}
+
+footer .ac-gf-footer-locale-link:first-child {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0
+}
+
+footer .ac-gf-footer-legal {
+    position: relative;
+    top: -3px;
+    z-index: 1
+}
+
+footer .ac-gf-footer-legal::before,
+footer .ac-gf-footer-legal::after {
+    content: ' ';
+    display: table
+}
+
+footer .ac-gf-footer-legal::after {
+    clear: both
+}
+
+footer .ac-gf-footer-legal-copyright,
+footer .ac-gf-footer-legal-links {
+    margin-right: 30px;
+    float: left;
+    margin-top: 5px
+}
+
+
+footer .ac-gf-footer-legal-copyright {
+    max-height: 9999px
+}
+
+footer .ac-gf-footer-legal-links {
+    position: relative;
+    top: -5px;
+    z-index: 1
+}
+
+footer .ac-gf-footer-legal-link {
+    border-right: 1px solid var(--footer-border-color);
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap
+}
+
+footer .ac-gf-footer-legal-link:last-child {
+    border: none;
+    margin: 0;
+    padding: 0
+}
+
+footer .ac-gf-buystrip+.ac-gf-footer {
+    border-top: none
+}
+
+footer .ac-gf-sosumi+.ac-gf-footer {
+    border-top: none
+}
+
+
+
+footer .directory+.ac-gf-footer {
+    padding-top: 34px;
+    border-top: none
+}
+
+
+footer .directory+.ac-gf-footer .ac-gf-footer-shop {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--footer-border-color)
+}
+
+
+footer .nowrap {
+    white-space: nowrap
+}
+
+footer .ac-gf-buystrip {
+    text-align: center
+}
+.AirPods {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("7.jpg") center no-repeat;
+    border: 10px solid white;
+}
+.watch1 {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("9.jpg") center no-repeat;
+    border: 10px solid white;
+}
+
+/* asdas */
+
+.promo {
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+    
+}
+
+.promo-heading {
+    font-size: 2.6rem;
+    Line-height: 1.65rem;
+    Letter-spacing: -0.005rem;
+}
+
+.promo-sub-heading {
+    font-size: 1.65rem;
+    margin-top: 0.6rem;
+    Letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+.cta{
+    text-align: center;
+}
+
+.AirPods1 {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("8.jpg") center no-repeat;
+    border: 10px solid white;
+  
+}
+.watch {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("14.jpg") center no-repeat;
+    border: 10px solid white;
+   
+}
+
+/* asdas */
+
+.promo {
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+    
+}
+
+.promo-heading {
+    font-size: 2.6rem;
+    Line-height: 1.65rem;
+    Letter-spacing: -0.005rem;
+}
+
+.promo-sub-heading {
+    font-size: 1.65rem;
+    margin-top: 0.6rem;
+    Letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+.cta{
+    text-align: center;
+}
+
+.macbook {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("13.png") center no-repeat;
+    border: 10px solid white;
+  
+}
+.card {
+    width: 47%;
+    height: 624px;
+    display: inline-block;
+    background: url("15.jpg") center no-repeat;
+    border: 10px solid white;
+   
+}
