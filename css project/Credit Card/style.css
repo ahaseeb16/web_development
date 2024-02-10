@@ -52,3 +52,19 @@ section {
     width: 55px;
     height: 40px;
   }
+  .front-face .card-details {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  h6 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  h5.number {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  h5.name {
+    margin-top: 20px;}
