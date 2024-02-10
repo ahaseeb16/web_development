@@ -32,3 +32,23 @@ section {
     padding: 25px;
     position: absolute;
   }
+  .front-face header,
+  .front-face .logo {
+    display: flex;
+    align-items: center;
+  }
+  .front-face header {
+    justify-content: space-between;
+  }
+  .front-face .logo img {
+    width: 55px;
+    margin-right: 10px;
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .front-face .chip {
+    width: 55px;
+    height: 40px;
+  }
