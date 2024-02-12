@@ -23,7 +23,7 @@ body{
 }
 .wrapper .title{
     line-height: 80px;
-    background: linear-gradient(-135deg, #c850c0, #4158d0) ;
+    background: linear-gradient(-135deg, #0137f8, #4158d0) ;
     padding: 10px;
     border-radius: 10px 10px 0 0;
     font-size: 25px;
@@ -52,7 +52,7 @@ body{
     margin: -8px 0 15px 0;
 }
 .wrapper form .pass a{
-    color: blueviolet;
+    color: rgb(4, 0, 248);
     text-decoration: none;
     font-size: 17px;
 }
@@ -64,7 +64,7 @@ body{
     margin-top: 20px;
 }
 .wrapper form .Signup a{
-    color: blueviolet;
+    color: rgb(4, 0, 248);
     text-decoration: none;
     font-size: 18px;
 }
@@ -77,11 +77,11 @@ body{
 .wrapper form .button input{
     padding-left: 0px;
     color: #fff;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #0137f8, #4158d0);
     cursor: pointer;
     font-weight: 500;
     font-size: 20px;
 }
 form .button input:hover{
-    background-color: rgb(89, 30, 145);
+    background-color: rgb(4, 0, 248);
 }
