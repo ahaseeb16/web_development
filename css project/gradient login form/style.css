@@ -67,3 +67,21 @@ body{
     color: blueviolet;
     text-decoration: none;
     font-size: 18px;
+}
+
+
+.wrapper form .Signup a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .button input{
+    padding-left: 0px;
+    color: #fff;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+form .button input:hover{
+    background-color: rgb(89, 30, 145);
+}
